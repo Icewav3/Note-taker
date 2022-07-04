@@ -18,6 +18,10 @@ public class Main{
         for (i = 0; i != 10; i++){
             
         }        
+
+        FileFinder find = new FileFinder();
+        find.getFiles();
+
         File file = new File(folder + "pdf");
         String filename = file.getName();
         System.out.println(ispdf(filename));
